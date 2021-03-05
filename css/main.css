@@ -101,6 +101,20 @@ main{
 .link img{
     width: 2rem;
 }
+.skills{
+  
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0rem;
+  padding: 1rem 1rem;
+  align-items: center;
+  background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      );
+  border-radius: 2rem;
+}
   .portfolio{
       flex: 2;
       margin: 5rem;
@@ -112,11 +126,11 @@ main{
     margin-bottom: 3rem;
     background: linear-gradient(
         to right bottom,
-        rgba(255, 255, 255, 0.7),
-        rgba(255, 255, 255, 0.3)
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.1)
       );
       border: none;
-      width: 50%;
+      width: 80%;
       padding: 0.5rem;
       border-radius: 2rem;
   }
@@ -124,8 +138,8 @@ main{
     display: flex;
     background: linear-gradient(
       to left top,
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.5)
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.2)
     );
     border-radius: 1rem;
     margin: 2rem 0rem;
@@ -133,31 +147,130 @@ main{
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
     justify-content: space-between;
   }
-  .progress {
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  .progress-java {
+    background: linear-gradient(to right top, #65dfc9, #6cdaeb);
     width: 100%;
     height: 25%;
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
+    color: #65dfc900;
   }
-  .progress::after {
+  .progress-java::after {
     content: "";
     width: 100%;
     height: 100%;
     background: rgb(236, 236, 236);
     position: absolute;
-    left: 100%;
+    left: 80%;
   }
+  .progress-kotlin {
+    background: linear-gradient(to right top, #65dfc9, #6cdaeb);
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    color: #65dfc900;
+  }
+  .progress-kotlin::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236, 236, 236);
+    position: absolute;
+    left: 40%;
+  }
+  .progress-SQL {
+    background: linear-gradient(to right top, #65dfc9, #6cdaeb);
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    color: #65dfc900;
+  }
+  .progress-SQL::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236, 236, 236);
+    position: absolute;
+    left: 70%;
+  }
+  .progress-SQL {
+    background: linear-gradient(to right top, #65dfc9, #6cdaeb);
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    color: #65dfc900;
+  }
+  .progress-SQL::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236, 236, 236);
+    position: absolute;
+    left: 60%;
+  }
+  .progress-html {
+    background: linear-gradient(to right top, #65dfc9, #6cdaeb);
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    color: #65dfc900;
+  }
+  .progress-html::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236, 236, 236);
+    position: absolute;
+    left: 50%;
+  }
+
+  .progress-css {
+    background: linear-gradient(to right top, #65dfc9, #6cdaeb);
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    color: #65dfc900;
+  }
+  .progress-css::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236, 236, 236);
+    position: absolute;
+    left: 40%;
+  }
+  .progress-Js {
+    background: linear-gradient(to right top, #65dfc9, #6cdaeb);
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    color: #65dfc900;
+  }
+  .progress-Js::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236, 236, 236);
+    position: absolute;
+    left: 10%;
+  }
+
   .card-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  .percentage {
-    font-weight: bold;
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 
