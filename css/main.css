@@ -110,15 +110,15 @@ main{
       text-align: center;
       background: linear-gradient(
         to right bottom,
-        rgba(255, 255, 255, 0.7),
-        rgba(255, 255, 255, 0.3)
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.1)
       );
       border-radius: 2rem;
       
   }
 .profile img{
     margin: 1rem;
-    width: 6rem;
+    width: 7rem;
     border-radius: 50%;
 }
 .link {
